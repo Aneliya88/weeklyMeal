@@ -1,38 +1,97 @@
-.App {
+body {
+  background: url(food1.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+background-color: black;
+}
+
+h1 {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 10px;
+  background-color: #ffffffb9;
+  padding: 10px;
+  width: 400px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.button-add {
+  font-family: "Montserrat", sans-serif;
+  border-radius: 10px;
+  background-color: #31724aec;
+  padding: 10px;
+  font-size: 17px;
+  color: #fff;
+  text-align: center;
+  width: 150px;
 }
+.button-delete {
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  background: none;
+  font-weight: bolder;
+  color: red;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.deleteAll {
+  font-family: "Montserrat", sans-serif;
+  border-radius: 10px;
+  background-color: #b42d2ddc;
+  padding: 10px;
+  font-size: 17px;
+  color: #fff;
+  text-align: center;
+  width: 150px;
+  margin-top: 10px;
+}
+.App {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
+}
+.whole-plan {
+  width: 70%;
+  height: 100vh;
+
+}
+.myInput {
+  width: 70%;
+  height: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  display: block;
+  margin-top: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+textarea {
+  display: block;
+  border: 1px solid #ddd;
+  margin-top: 30px;
+  width: 70%;
+  height: 200px;
+  border-radius: 20px;
+  font-family: "Montserrat", sans-serif;
+  padding: 10px;
+  font-size: 20px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.selected {
+  background-color: #fbec16;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 10px;
+  padding: 3px;
+  margin-top: 10px;
+}
+.default {
+  background-color: #ffffffbd;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 10px;
+  padding: 3px;
+  margin-top: 10px;
+}
+.plan {
+font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  text-align: end;
+  color: #fff;
+ 
 }
