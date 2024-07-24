@@ -4,7 +4,6 @@ body {
   background-repeat: no-repeat;
 background-color: black;
 }
-
 h1 {
   color: black;
   font-family: "Montserrat", sans-serif;
@@ -30,7 +29,6 @@ h1 {
   background: none;
   font-weight: bolder;
   color: red;
-
 }
 .deleteAll {
   font-family: "Montserrat", sans-serif;
@@ -50,7 +48,6 @@ h1 {
 .whole-plan {
   width: 70%;
   height: 100vh;
-
 }
 .myInput {
   width: 70%;
@@ -62,7 +59,6 @@ h1 {
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
 }
-
 textarea {
   display: block;
   border: 1px solid #ddd;
@@ -93,7 +89,6 @@ font-size: 20px;
   font-family: "Montserrat", sans-serif;
   text-align: end;
   color: #fff;
- 
 }
 @media all and (max-width:800px) {
   body {
