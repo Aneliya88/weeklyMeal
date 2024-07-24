@@ -22,7 +22,7 @@ h1 {
   font-size: 17px;
   color: #fff;
   text-align: center;
-  width: 150px;
+  width: 420px;
 }
 .button-delete {
   font-family: "Montserrat", sans-serif;
@@ -40,7 +40,7 @@ h1 {
   font-size: 17px;
   color: #fff;
   text-align: center;
-  width: 150px;
+  width: 420px;
   margin-top: 10px;
 }
 .App {
@@ -94,4 +94,56 @@ font-size: 20px;
   text-align: end;
   color: #fff;
  
+}
+@media all and (max-width:800px) {
+  body {
+    background-size: auto;
+  }
+  .plan {
+    align-self: flex-end;
+  }
+  h1 {
+    width: 230px;
+    margin-left: 20px;
+  }
+  .button-add, .deleteAll {
+    width: 250px;
+    margin-left: 20px;
+  }
+  textarea, .myInput {
+    margin-left: 20px;
+  }
+  .list {
+    width: 250px;
+    margin-left: 20px;
+  }
+}
+@media all and (max-width:500px) {
+  body {
+    background-size: auto;
+  }
+  .App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .plan {
+    display: none;
+  }
+  h1 {
+    width: 230px;
+    margin-left: 0px;
+  }
+  .button-add, .deleteAll {
+    width: 250px;
+    margin-left: 0px;
+  }
+  textarea, .myInput {
+    margin-left: 0px;
+    width: 250px;
+  }
+  .list {
+    width: 250px;
+    margin-left: 0px;
+  }
 }

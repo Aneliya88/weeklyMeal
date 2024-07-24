@@ -4,7 +4,7 @@ return <div>
         <h1>Weekly Meal Plan Ideas</h1>
         <button className="button-add"onClick={addMeal}>Add</button>
     </div>
-    <div>
+    <div className="list">
         {mealPlans.map(({id, title, mealForADay}) => (
             <div className={`meal ${id === selectedDay ? "selected" : "default"}`}
             onClick={() => setSelectedDay(id)}>
