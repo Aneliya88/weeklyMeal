@@ -1,6 +1,6 @@
 body {
   background: url(food1.avif);
-  background-size: cover;
+  background-size: auto;
   background-repeat: no-repeat;
 background-color: black;
 }
